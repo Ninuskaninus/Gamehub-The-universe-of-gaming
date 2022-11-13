@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>GameHub – Buy game</Title>
+        <meta name="description" content="The home page to my first ever website." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/51e0e590da.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <nav>
+        <div class="nav-wapper">
+            <button class="hamburger">MENU</button>
+            <a href="index.html"><img class="nav-logo" src="/images/GameHub_Logo.png" alt="Gamehub-logo"></a>
+            <ul class="nav-list">
+                <li><a href="games.html">Games</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            <a href="Sellgame.html"><div class="nav-button"><button class="button1">Sell a game!</button></a></div>
+        </div>
+    </nav>
+    <main>
+        <div class="buy-wrapper">
+            <div class="buy-left">
+                <div class="buy-left-content">
+                    <div class="image-frame">
+                        <img src="/images/GameHub_covers3.jpeg" alt="Black">
+                    </div>
+                    <div class="buy-text">
+                        <h4>About the game</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, </p>
+                    </div>
+                </div>
+            </div>
+            <div class="buy-right"> 
+                <div class="buy-right-content">
+                    <div class="preview-radio">
+                        <input type="radio" id="pc" name="PC">
+                        <label for="pc">PC</label>
+                        <input type="radio" id="ps5" name="PC">
+                        <label for="pc">PS5</label>
+                        <input type="radio" id="xbox" name="PC">
+                        <label for="pc">Xbox</label>
+                </div>
+                <div class="buy-price">
+                    <h2>300,-</h2>
+                </div>
+                <div class="buy-form">
+                    <form action="buy">
+                        <label for="cardholdername">Cardholder name</label>
+                        <input type="text" name="cardholdername" id="cardholdername" placeholder="Placeholder text">
+                    </form>
+                    <form action="buy">
+                        <label for="cardnumber">Card number</label>
+                        <input type="text" name="cardnumber" id="cardholdername" placeholder="1234 5678 9101 1121">
+                    </form>
+                    <div class="expiration">
+                        <form action="buy">
+                            <label for="expiration">Expiration date</label>
+                            <input type="date" name="expiration" id="cardholdername" placeholder="DD/MM">
+                        </form>
+                        <form action="buy">
+                            <label for="cvc">CVC</label>
+                            <input type="number" name="cvc" id="cardholdername" placeholder="CVC">
+                        </form>
+                    </div>
+                    <form action="buy">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@example.com">
+                    </form>
+                </div>
+                <div class="buy-button">
+                    <a href=""><button class="button2" id="green">Purchase</button></a>
+                </div>
+                </div>
+            </div>
+    </div>
+    </main>
+</body>
+</html>
